@@ -322,6 +322,16 @@ There is also a "Public" role that determines access for unauthenticated access.
 - [Configuring System Permissions](/configuration/users-roles-permissions#configure-system-permissions)
 - [Deleting a Role](/configuration/users-roles-permissions#deleting-a-role)
 
+## Singleton
+
+- **directus** - One item (record) for your query
+- **design pattern** - classes which can be instantiated once, and can be accessed globally. This single instance can be shared throughout our application, which makes Singletons great for managing global state in an application
+
+### References
+
+- [readSingleton](https://github.com/directus/directus/blob/main/api/src/services/items.ts#L826)
+- [Singleton Pattern](https://www.patterns.dev/posts/singleton-pattern/)
+
 ## Storage Adapters
 
 Storage adapters allow project files to be stored in different locations or services. By default, Directus includes the
