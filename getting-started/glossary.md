@@ -324,7 +324,7 @@ There is also a "Public" role that determines access for unauthenticated access.
 
 ## Singleton
 
-- **directus** - One item (record) for your query
+- **directus** - A collection consisting of one item (record)
 - **design pattern** - classes which can be instantiated once, and can be accessed globally. This single instance can be shared throughout our application, which makes Singletons great for managing global state in an application
 
 ### References
