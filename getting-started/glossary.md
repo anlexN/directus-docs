@@ -329,7 +329,7 @@ There is also a "Public" role that determines access for unauthenticated access.
 
 ### References
 
-- [readSingleton](https://github.com/directus/directus/blob/main/api/src/services/items.ts#L826)
+- [`readSingleton`](https://github.com/directus/directus/blob/main/api/src/services/items.ts#L826)
 - [Singleton Pattern](https://www.patterns.dev/posts/singleton-pattern/)
 
 ## Storage Adapters
